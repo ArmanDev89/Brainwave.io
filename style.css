@@ -17,8 +17,11 @@ body {
     width: 100%;
     scroll-behavior: smooth;
     font-family: 'Gilroy-Bold', serif;
-    background-color: #F2F2F2;
+    background-color: #ffffff;
+    color: var(--text-color);
 }
+
+/*==================================Header============================================*/
 
 .header {
     width: 100%;
@@ -87,4 +90,110 @@ body {
     text-decoration: none;
     letter-spacing: -0.03125vw;
     transition: .3s ease;
+}
+
+/*==================================Main============================================*/
+
+.main {
+    width: 64.19vw;
+    height: 86.5vw;
+    margin: 0 auto;
+}
+
+.main__inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main__title {
+    width: 38.69vw;
+    font-weight: 700;
+    font-size: 3vw;
+    line-height: 121%;
+    letter-spacing: -0.1125vw;
+    color: var(--text-color);
+    margin-top: 4.6875vw;
+}
+
+.subtitle {
+    font-family: 'Gilroy-Regular', serif;
+    font-weight: 400;
+    font-size: 1.1875vw;
+    line-height: 168%;
+    opacity: 0.7;
+}
+
+.main__subtitle {
+    width: 32vw;
+    margin-top: 0.8125vw;
+}
+
+.main__button-section {
+    display: flex;
+    justify-content: space-between;
+    width: 26vw;
+    height: 3.5vw;
+    margin-top: 3.125vw;
+}
+
+.main__button {
+    width: 14.1875vw;
+    height: 3.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__button-name {
+    font-size: 1.1vw;
+    line-height: 188%;
+    letter-spacing: -0.6px;
+    margin-right: 1.5vw;
+}
+
+.main__button_transparent {
+    width: 10.625vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+
+.main__button-name_transparent {
+    margin: 0;
+    color: #000;
+}
+
+.main__picture {
+    margin-top: 6.5vw;
+}
+
+.main__features {
+    display: flex;
+    justify-content: space-between;
+    width: 65.875vw;
+    height: 13.125vw;
+    margin-top: 6.25vw;
+}
+
+.main__features-item {
+    width: 18vw;
+    height: 13vw;
+    text-align: left;
+}
+
+.features__title {
+    font-size: 1.3125vw;
+    line-height: 152%;
+    letter-spacing: -0.03125vw;
+    margin: 2.31vw 0 1.25vw 0;
+}
+
+.features__description {
+    font-family: 'Gilroy-Regular', serif;
+    font-size: 1vw;
+    opacity: 0.7;
 }
