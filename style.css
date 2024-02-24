@@ -96,7 +96,7 @@ body {
 
 .main {
     width: 64.19vw;
-    height: 86.5vw;
+    height: 1660px;
     margin: 0 auto;
 }
 
@@ -195,5 +195,102 @@ body {
 .features__description {
     font-family: 'Gilroy-Regular', serif;
     font-size: 1vw;
+    opacity: 0.7;
+}
+
+/*==================================Getting Started============================================*/
+
+.getting-started {
+    width: 100vw;
+    background-color: var(--secondary-bg-color);
+}
+
+.getting-started__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 69.375vw;
+    height: 691px;
+    margin: 0 auto;
+}
+
+.getting-started__text {
+    width: 25.875vw;
+    height: 20vw;
+}
+
+.getting-started__title {
+    font-weight: 700;
+    font-size: 2.25vw;
+    line-height: 133%;
+    letter-spacing: -0.075vw;
+    color: #161C2D;
+}
+
+.getting-started__description {
+    font-family: 'Gilroy-Regular', serif;
+    font-size: 1.1875vw;
+    line-height: 168%;
+    letter-spacing: -0.0125vw;
+    opacity: 0.7;
+    margin: 1.69vw 0 2.6vw 0;
+}
+
+.getting-started__button {
+    width: 15vw;
+    height: 3.69vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.getting-started__button-name {
+    font-size: 1.1vw;
+    line-height: 188%;
+    letter-spacing: -0.0375vw;
+    margin-right: 2.5vw;
+}
+
+/*==================================Facts============================================*/
+
+.facts {
+    width: 100vw;
+}
+
+.facts:after {
+    content: '';
+    display: block;
+    height: 0.1vw;
+    width: 100vw;
+    background: #E9EBEF;
+}
+
+.facts__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 64vw;
+    height: 214px;
+    margin: 0 auto;
+}
+
+.facts__item {
+    display: flex;
+    justify-content: space-between;
+    width: 17.81vw;
+}
+
+.item-statistics {
+    font-size: 3vw;
+    line-height: 121%;
+    letter-spacing: -0.1125vw;
+}
+
+.item-description {
+    width: 10.88vw;
+    font-family: 'Gilroy-Regular', serif;
+    font-size: 1.06vw;
+    line-height: 171%;
+    letter-spacing: -0.0125vw;
     opacity: 0.7;
 }
