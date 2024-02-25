@@ -488,7 +488,7 @@ body {
     transition: .5s ease;
 }
 
-.plans__item:hover{
+.plans__item:hover {
     transform: scale(1.03);
     box-shadow: 0 0 1vw var(--main-color);
 }
@@ -498,7 +498,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 2.1vw auto 1.75vw;
-    width: 5.125vw;
+    width: 6vw;
     height: 1.81vw;
     background-color: #EDECFE;
     border-radius: 1vw;
@@ -547,4 +547,246 @@ body {
     line-height: 2vw;
     letter-spacing: -0.0375vw;
     color: #FFFFFF;
+}
+
+/*======================================FAQ========================================*/
+
+.faq {
+    width: 100%;
+    height: 906px;
+    background-color: #161C2D;
+    color: #FFFFFF;
+}
+
+.faq__content {
+    width: 67.31vw;
+    display: grid;
+    grid-template-columns: 31.69vw 31.69vw;
+    grid-template-rows: 14.125vw 14.125vw;
+    gap: 3.75vw;
+    padding-top: 5vw;
+    margin: 0 auto;
+}
+
+.faq__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq__icon img {
+    width: 1.81vw;
+    height: 1.81vw;
+}
+
+.faq__text {
+    width: 28.75vw;
+}
+
+.faq__question {
+    font-size: 1.31vw;
+    line-height: 2vw;
+    letter-spacing: -0.031vw;
+}
+
+.faq__answer {
+    font-family: 'Gilroy-Regular', serif;
+    font-size: 1.06vw;
+    line-height: 171%;
+    letter-spacing: -0.0125vw;
+    opacity: 0.65;
+    margin: 1.25vw 0 1.625vw 0;
+}
+
+.faq__link {
+    width: 10.44vw;
+    color: #68D585;
+}
+
+.faq__link a {
+    display: flex;
+    justify-content: space-between;
+    color: #68D585;
+    text-decoration: none;
+    font-size: 1.06vw;
+    line-height: 2vw;
+    letter-spacing: -0.0375vw;
+}
+
+.faq__link img {
+    width: 0.625vw;
+}
+
+.faq__contact-link {
+    font-family: 'Gilroy-Regular', serif;
+    font-size: 1.06vw;
+    line-height: 171%;
+    letter-spacing: -0.0125vw;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.faq__contact-link a {
+    text-decoration: none;
+    color: #68D585;
+}
+
+/*======================================CTA========================================*/
+
+.cta {
+    width: 100%;
+    height: 362px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cta:after {
+    content: '';
+    display: block;
+    height: 0.1vw;
+    width: 100vw;
+    background: #E9EBEF;
+    position: absolute;
+    bottom: 0;
+}
+
+.cta__inner {
+    width: 69.375vw;
+    height: 8vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta__title {
+    font-size: 2vw;
+    line-height: 138%;
+    letter-spacing: -0.075vw;
+    color: #161C2D;
+}
+
+.cta__description {
+    width: 31.44vw;
+    font-family: 'Gilroy-Regular', serif;
+    font-size: 1.19vw;
+    line-height: 2vw;
+    letter-spacing: -0.0125vw;
+    opacity: 0.7;
+    margin-top: 1.25vw;
+}
+
+.cta__buttons-section {
+    width: 23.44vw;
+    height: 3.6875vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta__button {
+    width: 11vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta__button:nth-child(1) {
+    background-color: #EEEEFD;
+}
+
+.cta__button:nth-child(1):hover {
+    background-color: var(--main-color);
+}
+
+.cta__button:nth-child(1):hover > a {
+    color: #FFFFFF;
+}
+
+.cta__button-name {
+    width: 8.75vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.transparent {
+    color: var(--main-color);
+}
+
+/*======================================Footer========================================*/
+
+.footer {
+    width: 100%;
+    height: 571px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__inner {
+    width: 69.375vw;
+    height: 15.375vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer__company {
+    width: 16.31vw;
+    height: 12.81vw;
+}
+
+.footer__company-description {
+    font-family: 'Gilroy-Regular', serif;
+    font-size: 0.9vw;
+    line-height: 173%;
+    letter-spacing: -0.00625vw;
+    opacity: 0.7;
+    margin: 2.34vw 0 2.34vw 0;
+}
+
+.footer__social-media {
+    width: 8.88vw;
+    height: 1.25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__links {
+    width: 46vw;
+    height: 15.375vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links__item {
+    width: 25%;
+    height: 15.375vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.links__title {
+    font-family: 'Gilroy-Regular', serif;
+    font-size: 0.96vw;
+    line-height: 173%;
+    letter-spacing: -0.00625vw;
+    opacity: 0.7;
+    margin-bottom: 1.25vw;
+}
+
+.links__list {
+    width: 8.2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.links__list-item {
+    font-family: 'Gilroy-Regular', serif;
+    font-size: 1.06vw;
+    line-height: 235%;
+    letter-spacing: -0.00125vw;
+    text-decoration: none;
+    color: var(--text-color);
 }
