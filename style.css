@@ -299,6 +299,7 @@ body {
 
 .benefits {
     width: 100vw;
+    height: 782px;
 }
 
 .benefits__inner {
@@ -349,7 +350,7 @@ body {
     height: 6.25vw;
 }
 
-.list__number img{
+.list__number img {
     width: 3vw;
     height: 3vw;
 }
@@ -367,4 +368,183 @@ body {
     line-height: 171%;
     letter-spacing: -0.0125vw;
     opacity: 0.7;
+}
+
+/*======================================Testimonial========================================*/
+
+.testimonial {
+    width: 100%;
+    height: 624px;
+    background-color: var(--secondary-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 69.375vw;
+    height: 378px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonial__item:nth-child(1) {
+    box-shadow: inset -1px 0 0 #E7E9ED;
+}
+
+.testimonial__item {
+    width: 34.6875vw;
+    height: 378px;
+}
+
+.testimonial__avatar {
+    margin-bottom: 2.81vw;
+}
+
+.testimonial__avatar img {
+    width: 4.5vw;
+    height: 4.5vw;
+}
+
+.testimonial__title {
+    font-size: 1.5vw;
+    line-height: 142%;
+    letter-spacing: -0.03125vw;
+}
+
+.testimonial__description {
+    width: 22.25vw;
+    font-family: 'Gilroy-Regular', serif;
+    font-size: 1.19vw;
+    line-height: 168%;
+    letter-spacing: -0.0125vw;
+    opacity: 0.7;
+    margin: 1.5vw auto 1.5vw;
+}
+
+.testimonial__author {
+    font-size: 1.06vw;
+    line-height: 171%;
+    letter-spacing: -0.0125vw;
+}
+
+.testimonial__role {
+    font-family: 'Gilroy-Regular', serif;
+    font-size: 0.94vw;
+    line-height: 173%;
+    letter-spacing: -0.00625vw;
+    opacity: 0.7;
+}
+
+/*======================================Pricing & Plans========================================*/
+
+.pricing {
+    width: 100%;
+    height: 942px;
+    background-color: #161C2D;
+    color: #FFFFFF;
+}
+
+.pricing__inner {
+    width: 69.375vw;
+    height: 761px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pricing__title {
+    padding-top: 5.75vw;
+    font-size: 2.25vw;
+    line-height: 133%;
+    letter-spacing: -0.075vw;
+}
+
+.pricing__description {
+    width: 36.81vw;
+    margin: 1vw auto 4vw;
+    font-family: 'Gilroy-Regular', serif;
+    font-size: 1.19vw;
+    line-height: 2vw;
+    letter-spacing: -0.0125vw;
+    opacity: 0.65;
+}
+
+.pricing__plans {
+    display: flex;
+    justify-content: space-between;
+    width: 69.375vw;
+    height: 529px;
+}
+
+.plans__item {
+    width: 21.875vw;
+    height: 529px;
+    background-color: #ffffff;
+    color: var(--text-color);
+    border-radius: 0.5vw;
+    transition: .5s ease;
+}
+
+.plans__item:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 1vw var(--main-color);
+}
+
+.plans__plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.1vw auto 1.75vw;
+    width: 5.125vw;
+    height: 1.81vw;
+    background-color: #EDECFE;
+    border-radius: 1vw;
+    font-size: 0.81vw;
+    line-height: 1vw;
+    letter-spacing: 0.1vw;
+    text-transform: uppercase;
+    color: #473BF0;
+}
+
+.plans__cost {
+    font-size: 3vw;
+    line-height: 121%;
+    letter-spacing: -0.11vw;
+}
+
+.plans__mode {
+    font-family: 'Gilroy-Regular', serif;
+    font-size: 1.06vw;
+    line-height: 171%;
+    letter-spacing: -0.0125vw;
+    opacity: 0.7;
+    margin: 0.3vw 0 2.5vw 0;
+}
+
+.plans__description {
+    width: 18.5vw;
+    margin: 0 auto 3.6vw;
+    font-family: 'Gilroy-Regular', serif;
+    font-size: 1.06vw;
+    line-height: 171%;
+    letter-spacing: -0.0125vw;
+}
+
+.plans__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19.88vw;
+    height: 3.75vw;
+    margin: 0 auto;
+}
+
+.plans__button-name {
+    font-size: 1.06vw;
+    line-height: 2vw;
+    letter-spacing: -0.0375vw;
+    color: #FFFFFF;
 }
